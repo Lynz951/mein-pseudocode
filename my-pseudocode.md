@@ -40,7 +40,7 @@
 
 ### Preparation Stage:
 
-> FUNCTION gatherMaterials: <br>
+FUNCTION gatherMaterials: <br>
     * water (1 cup) <br>
     * tea bag (1) <br>
     * coffee mug (1) <br>
@@ -48,23 +48,23 @@
     * stove (1) <br>
     * timer (1) <br>
 
-> FUNCTION checkTemperature: <br>
-    > *IF waterTemperature > 212 degrees Fahrenheit <br>
-        > THEN  <br>
-            > Say "This water is hot enough." <br>
-                > END
+FUNCTION checkTemperature: <br>
+     *IF waterTemperature > 212 degrees Fahrenheit <br>
+         THEN  <br>
+             Say "This water is hot enough." <br>
+                 END
 
 ### Building Stage:
 
-> FUNCTION heatWater: <br>
->   a. Pour water into tea kettle <br>
->   b. Put tea kettle on stove <br>
->   c. Set burner on HIGH. <br>
+FUNCTION heatWater: <br>
+   a. Pour water into tea kettle <br>
+   b. Put tea kettle on stove <br>
+   c. Set burner on HIGH. <br>
 
-> FUNCTION waterBoiling: <br>
->     * IF water is boiling then remove tea kettle from the stove <br>
->            Else <br>
->                wait a minute and loop back to beginning <br>
+FUNCTION waterBoiling: <br>
+     * IF water is boiling then remove tea kettle from the stove <br>
+            Else <br>
+                wait a minute and loop back to beginning <br>
 
 
 1. While water is cold put water in a tea kettle
