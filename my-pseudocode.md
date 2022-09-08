@@ -4,7 +4,7 @@
 
 - Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh tea leaves 
 - There are many types of tea
--Some teas have caffeine, others do not
+- Some teas have caffeine, others do not
 
 ## Initialize- Create Variables
 
@@ -12,24 +12,24 @@
     - Material for making tea
     - Freezes at -32 degrees, boils at 212 degrees.
 
-    Properties:
-        waterTemp
-        waterAmount
+    Properties: <br>
+        waterTemp <br>
+        waterAmount <br>
 
 2. Tea bag
     - Material for making tea.
     - Cured or fresh tea leaves in a small, porous, sealed bag or packet.
     - Many varieties exist for example black tea, green tea, mint tea, and caffenated and decaf.
 
-    Properties:
-        teabagUnused
-        teabagUsed
+    Properties: <br>
+        teabagUnused <br>
+        teabagUsed <br>
 
 3. Coffee mug
     - Receptical used for brewing tea and for drinking tea
 
-    Properties:
-        mugSize
+    Properties: <br>
+        mugSize 
 
 4. Tools:
     1. Tea Kettle- pot with a lid used for heating water
@@ -40,23 +40,31 @@
 
 ### Preparation Stage:
 
-> FUNCTION gatherMaterials:
-    * water (1 cup)
-    * tea bag (1)
-    * coffee mug (1)
-    * tea kettle (1)
-    * stove (1)
-    * timer (1)
+> FUNCTION gatherMaterials: <br>
+    * water (1 cup) <br>
+    * tea bag (1) <br>
+    * coffee mug (1) <br>
+    * tea kettle (1) <br>
+    * stove (1) <br>
+    * timer (1) <br>
 
-> FUNCTION checkTemperature:
-    *IF waterTemperature > 212 degrees Fahrenheit
-        THEN 
-            Say "This water is hot enough."
-                END
+> FUNCTION checkTemperature: <br>
+>    *IF waterTemperature > 212 degrees Fahrenheit <br>
+>        THEN  <br>
+>           Say "This water is hot enough." <br>
+>               END
 
 ### Building Stage:
 
-> 
+> FUNCTION heatWater: <br>
+>   a. Pour water into tea kettle <br>
+>   b. Put tea kettle on stove <br>
+>   c. Set burner on HIGH. <br>
+
+> FUNCTION waterBoiling: <br>
+>     * IF water is boiling then remove tea kettle from the stove <br>
+>            Else <br>
+>                wait a minute and loop back to beginning <br>
 
 
 1. While water is cold put water in a tea kettle
