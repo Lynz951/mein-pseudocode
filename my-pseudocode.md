@@ -49,10 +49,10 @@
     * timer (1) <br>
 
 > FUNCTION checkTemperature: <br>
->    *IF waterTemperature > 212 degrees Fahrenheit <br>
->        THEN  <br>
->           Say "This water is hot enough." <br>
->               END
+    > *IF waterTemperature > 212 degrees Fahrenheit <br>
+        > THEN  <br>
+            > Say "This water is hot enough." <br>
+                > END
 
 ### Building Stage:
 
