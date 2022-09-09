@@ -61,11 +61,37 @@ FUNCTION heatWater: <br>
    b. Put tea kettle on stove <br>
    c. Set burner on HIGH. <br>
 
-FUNCTION waterBoiling: <br>
+FUNCTION checkBoiling: <br>
      * IF water is boiling then remove tea kettle from the stove <br>
             Else <br>
                 wait a minute and loop back to beginning <br>
+                
+FUNCTION addWater: <br>
+    * Pour water into coffee mug. <br>
+    
+FUNCTION addTeaBag <br>
+    * Place tea bag into coffee mug with hot water. <br>
+    
+FUNTION setTimer <br>
+    a. Set timer for 3 minutes <br>
+    b. If timer dings <br>
+        THEN <br>
+            remove tea bag from coffee mug and END <br>
+        ELSE <br>
+            do nothing. <br>
+            
+### START: Start the Program
 
+> gatherMaterials
+> checkTemperature
+> heatWater
+> waterBoiling
+> addWater
+> addTeaBag
+> setTimer
+
+### END: End the Program
+---
 
 1. While water is cold put water in a tea kettle
     Else
