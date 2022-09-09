@@ -82,13 +82,13 @@ FUNTION setTimer <br>
             
 ### START: Start the Program
 
-> gatherMaterials
-> checkTemperature
-> heatWater
-> waterBoiling
-> addWater
-> addTeaBag
-> setTimer
+> gatherMaterials <br>
+> checkTemperature <br>
+> heatWater <br>
+> waterBoiling <br>
+> addWater <br>
+> addTeaBag <br>
+> setTimer <br>
 
 ### END: End the Program
 ---
