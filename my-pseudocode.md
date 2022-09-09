@@ -40,13 +40,7 @@
 
 ### Preparation Stage:
 
-FUNCTION gatherMaterials: <br>
-    * water (1 cup) <br>
-    * tea bag (1) <br>
-    * coffee mug (1) <br>
-    * tea kettle (1) <br>
-    * stove (1) <br>
-    * timer (1) <br>
+
 
 FUNCTION checkTemperature: <br>
      *IF waterTemperature > 212 degrees Fahrenheit <br>
@@ -56,42 +50,7 @@ FUNCTION checkTemperature: <br>
 
 ### Building Stage:
 
-FUNCTION heatWater: <br>
-   a. Pour water into tea kettle <br>
-   b. Put tea kettle on stove <br>
-   c. Set burner on HIGH. <br>
 
-FUNCTION checkBoiling: <br>
-     * IF water is boiling then remove tea kettle from the stove <br>
-            Else <br>
-                wait a minute and loop back to beginning <br>
-                
-FUNCTION addWater: <br>
-    * Pour water into coffee mug. <br>
-    
-FUNCTION addTeaBag <br>
-    * Place tea bag into coffee mug with hot water. <br>
-    
-FUNTION setTimer <br>
-    a. Set timer for 3 minutes <br>
-    b. If timer dings <br>
-        THEN <br>
-            remove tea bag from coffee mug and END <br>
-        ELSE <br>
-            do nothing. <br>
-            
-### START: Start the Program
-
-> gatherMaterials <br>
-> checkTemperature <br>
-> heatWater <br>
-> waterBoiling <br>
-> addWater <br>
-> addTeaBag <br>
-> setTimer <br>
-
-### END: End the Program
----
 
 1. While water is cold put water in a tea kettle
     Else
